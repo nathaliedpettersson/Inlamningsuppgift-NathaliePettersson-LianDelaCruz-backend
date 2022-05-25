@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+   
+    <title>Inlämningsuppgift</title>
+</head>
+<body>
+   <div id="main-wrapper">
+       <div id="artist-wrapper">
+           <p id="content">ARTIST TABLE</p>
+            <button id="artist-btn">Select all my artists</button>
+            <br>
+            <br>
+            <input id="del-id" type="number" placeholder="select id number">
+            <button id="delete-btn">Delete artist</button>
+            <p id="content-1"></p>
+
+            <input type="number" id="update-id" placeholder="write id number">
+            <input id="update-artist-input" type="text" placeholder="update the artist">
+            <button id="update-artist-btn" >Update Artist</button>
+
+            <br>
+            <br>
+
+            <input type="text" id="add-artist-name" placeholder="Enter name of artist">
+            <input type="text" id="add-artist-origin" placeholder="Enter origin of artist">
+            <button id="add-artist-btn">Add new artist</button>
+
+        </div> 
+
+        <div id="album-wrapper">
+            <p id="album-content">ALBUM TABLE</p>
+            <button id="album-btn">Select all albums</button>
+            <br>
+            <br>
+            <input id="del-album-id" type="number" placeholder="select id number">
+            <button id="delete-album-btn">Delete album</button>
+            <p id="content-2"></p>
+
+            
+            <input type="number" id="update-album-id" placeholder="choose id of album to update">
+            <input type="text" id="update-album-genre" placeholder="write a new genre">
+            <button id="update-album-btn" >Update album</button>
+
+            <br>
+            <br>
+
+            <input id="add-album-name" type="text" placeholder="add the album name">
+            <input id="add-album-genre" type="text" placeholder="add the genre">
+            <input id="add-album-recordcompany" type="text" placeholder="add the record company">
+            <input type="number" id="add-artist-id" placeholder="Select id of existing artist">
+            <button id="add-album-btn">Add new album</button>
+        </div>
+
+        <div id="song-wrapper">
+            <p id="song-content">SONGS TABLE</p>
+            <button id="song-btn">Select all songs</button>
+            <br>
+            <br>
+            <input id="del-song-id" type="number" placeholder="select id number">
+            <button id="delete-song-btn">Delete song</button>
+            <p id="content-3"></p>
+
+            
+            <input type="number" id="update-song-id" placeholder="Choose song-id to update">
+            <input type="text" id="update-song-title" placeholder="Write new song title">
+            <button id="update-song-btn" >Update song</button>
+
+            <br>
+            <br>
+
+            <input id="add-song-title" type="text" placeholder="add the new song title">
+            <input id="add-release-date" type="number" placeholder="add year">
+            <input type="number" id="add-album-chart-id" placeholder="Select album id">
+            <button id="add-song-btn">Add new song</button>
+        </div>
+   </div>
+
+   <script src="script.js"></script>
+</body>
+</html>

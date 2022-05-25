@@ -1,0 +1,17 @@
+#main-wrapper {
+    align-items: center;
+    flex-direction: row;
+}
+
+#artist-wrapper {
+    border: black solid 2px;
+    align-items: center;
+}
+
+#album-wrapper {
+    border: black solid 2px;
+}
+
+#song-wrapper {
+    border: black solid 2px;
+}
